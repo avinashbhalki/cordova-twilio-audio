@@ -52,6 +52,7 @@
       <resource-file src="src/android/res/raw/incoming.wav" target="res/raw/incoming.wav" />
       <resource-file src="src/android/res/raw/music.wav" target="res/raw/music.wav" />
       <resource-file src="src/android/res/raw/outgoing.wav" target="res/raw/outgoing.wav" />
+      <framework src="com.google.code.gson:gson:2.10.1" />
    </platform>
    <platform name="ios">
       <config-file parent="/*" target="config.xml">
